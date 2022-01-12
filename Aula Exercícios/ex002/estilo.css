@@ -1,0 +1,31 @@
+body {
+    background: rgb(0, 77, 150);
+    font: Normal 20pt Roboto;
+}
+
+header{
+    color: #ffffff;
+    text-align: center;
+    
+}
+section{
+    background: #ffffff;
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.288);
+}
+#msg{
+    text-align: center;
+}
+#foto{
+    text-align: center;
+    margin-top: 30px;
+}
+footer{
+    color: #ffffff;
+    font: normal 10pt Roboto;
+    text-align: center;   
+}
