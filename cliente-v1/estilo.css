@@ -1,0 +1,28 @@
+body {
+    background: rgb(0, 77, 150);
+    font: Normal 15pt Roboto;
+}
+
+header{
+    color: #ffffff;
+    text-align: center;
+    
+}
+section{
+    background: #ffffff;
+    width: 600px;
+    height: 570px;
+    border-radius: 15px;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.288);
+}
+footer{
+    color: #ffffff;
+    font: normal 10pt Roboto;
+    text-align: center;   
+}
+#tab{
+    width: 300px;
+    margin-top: 40px;
+}
