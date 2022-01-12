@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+
+    <title>Cadastro de cliente</title>
+</head>
+
+<body>
+    <header class="pt-5">
+        <h1>Cadastro de cliente</h1>
+    </header>
+    <section id="sec" class="container-sm col-md-6 col-sm-12">
+        <div>
+            <h2 style="text-align: center;">Insira os dados do cliente</h2>
+            <div class="mb-r row">
+                <label class="col-sm-2 col-form-label" for="nome">Nome:</label>
+                <div class="col-sm-9">
+                    <input class="form-control" type="text" name="nome" id="txtnome">
+                </div>
+            </div>
+            <div class="mb-r row">
+                <label class="col-sm-2 col-form-label" for="nome">Idade:</label>
+                <div class="col-sm-9">
+                    <input class="form-control" type="number" name="idade" id="txtidade">
+                </div>
+            </div>
+            <div class="mb-r row">
+                <label class="col-sm-2 col-form-label" for="nome">Peso:</label>
+                <div class="col-sm-9">
+                    <input type="number" class="form-control" name="peso" id="txtpeso"><br>
+                </div>
+            </div>
+
+            <input class="btn btn-primary" type="button" value="Inserir" onclick="verificar()">
+        </div>
+        <div>
+            <select class="form-select" name="tab" id="tab" size="9" style="width: 91%;">
+
+            </select>
+            <div class="mb-r row p-2">
+                <select name="filtro" class="form-select m-1" style="width: 20%;" id="sel_filtro">
+                    <option value="1">Nome</option>
+                    <option value="2">Idade</option>
+                </select>
+                <input class="form-control col-md-2 m-1" type="text" style="width: 33%;" name="filtro" id="txtfiltro">
+                <input class="btn btn-primary col-md-2 m-1" type="button" value="Filtrar" onclick="filtrar()">
+                <input class="btn btn-primary col-md-2 m-1" type="button" value="Limpar" onclick="limparFiltro()">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; André Secco</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
