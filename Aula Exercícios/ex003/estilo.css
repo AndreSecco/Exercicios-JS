@@ -1,0 +1,33 @@
+body{
+    background: rgb(0, 77, 150);    
+}
+
+section{
+    font: Normal 13pt Roboto;
+}
+
+header{
+    color: #ffffff;
+    text-align: center;
+    font: Normal 20pt Roboto;
+}
+.centralizar{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+}
+section{
+    background: #ffffff;
+    width: 400px;
+    height: 420px;
+    border-radius: 15px;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.288);
+}
+footer{
+    color: #ffffff;
+    font: normal 10pt Roboto;
+    text-align: center;   
+}
